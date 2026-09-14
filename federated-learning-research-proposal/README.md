@@ -1,16 +1,16 @@
-Federated Learning for Privacy-Preserving Healthcare AI — Research Proposal
+Federated Learning for Privacy-Preserving Healthcare AI - Research Proposal
 
 MSc Cybersecurity coursework, University of York. A 3-minute academic research-pitch presentation proposing a federated learning approach to privacy-preserving disease prediction across hospitals.
 
 What this is
 
-This is a research proposal, not a completed implementation or experiment. The exercise was to design and pitch a well-scoped research project within a fixed time constraint — the topic, methodology, and framing were chosen independently. Figures shown in the presentation are explicitly labelled as illustrative projections, not experimental results.
+This is a research proposal, not a completed implementation or experiment. The exercise was to design and pitch a well-scoped research project within a fixed time constraint the topic, methodology, and framing were chosen independently. Figures shown in the presentation are explicitly labelled as illustrative projections, not experimental results.
 
 The proposal
 
 Hospitals hold sensitive patient data that UK GDPR and the Data Protection Act 2018 prevent them from pooling, yet reliable disease-prediction models need large, diverse datasets to generalise well. Traditional centralised machine learning requires pooling that data, creating an unavoidable conflict between building powerful diagnostic tools and protecting patient privacy.
 
-The proposed approach is federated learning: each hospital trains a model on its own local data, and only model updates — never patient records — are shared with a central server that aggregates them into an improved shared model. The proposal sets out a fair, controlled comparison: a centralised baseline versus a federated approach, trained on the same two public healthcare benchmarks (UCI Heart Disease, Pima Indians Diabetes) under identical conditions, using TensorFlow Federated.
+The proposed approach is federated learning: each hospital trains a model on its own local data, and only model updates never patient records are shared with a central server that aggregates them into an improved shared model. The proposal sets out a fair, controlled comparison: a centralised baseline versus a federated approach, trained on the same two public healthcare benchmarks (UCI Heart Disease, Pima Indians Diabetes) under identical conditions, using TensorFlow Federated.
 
 Proposed 24-week plan:
 
